@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# index.html
+# lib/css/styles.css
+# lib/js/preload-min.js
+# lib/js/script-min.js
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
