@@ -1,0 +1,38 @@
+%group {
+    *zoom: 1;
+
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+        line-height: 0;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+%font-awesome {
+    font-family: 'FontAwesome';
+}
+
+%ostrich-sans {
+    font-family: 'Ostrich Sans';
+}
+
+%open-sans {
+    font-family: 'open_sanslight';
+}
+
+%flex {
+    @include flexbox();
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}

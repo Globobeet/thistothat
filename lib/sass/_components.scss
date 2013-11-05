@@ -1,0 +1,5 @@
+#logo {
+    @include ir('logo-full.png', 'logo-full@2x.png');
+    display: block;
+    margin: 0 auto;
+}
