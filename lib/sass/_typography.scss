@@ -4,4 +4,10 @@ html {
 
 body {
     @extend %open-sans;
+    font-size: 1.6rem;
+    color: $white;
+}
+
+a {
+    text-decoration: none;
 }

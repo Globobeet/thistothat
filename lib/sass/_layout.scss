@@ -9,7 +9,7 @@
     @extend %app-window;
     background: image-url('bg.png') no-repeat center bottom;
     background-size: cover;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 * {
@@ -22,4 +22,15 @@ html {
 
 body {
     @extend %app-layer;
+}
+
+// Development purposes only -- remove later
+html {
+    background: black;
+}
+
+body {
+    max-height: 548px;  // 568px - 20px for the status bar
+    max-width: 320px;
+    margin: 0 auto;
 }

@@ -6,8 +6,7 @@
 
 #install {
     @extend %app-layer;
-    opacity: 0;
-    @include position(absolute, 2, $t: 0, $l: 0);
+    @include position(absolute, 1000, $t: 0, $l: 0);
     @include flex-flow(column nowrap);
     @include justify-content(center);
 
@@ -32,6 +31,53 @@
             color: rgba($white, .15);
             display: block;
             margin-top: 1.2rem;
+        }
+    }
+}
+
+.unit-category {
+    @extend %app-window;
+    @include position(absolute, 10, $b: 97%, $l: 0);
+    @include transition(bottom .25s ease-in);
+
+    nav {
+        width: 100%;
+        height: 97%;
+        background: rgba($black, .65);
+        -webkit-overflow-scrolling: touch;
+
+        li {
+            border-bottom: 1px solid rgba($black, .4);
+        }
+
+        a {
+            color: $white;
+            display: block;
+            padding: 2rem 3rem;
+        }
+
+        .active a {
+            background: rgba($black, .6);
+        }
+    }
+
+    .toggle {
+        font-size: 1rem;
+        text-align: center;
+        color: rgba($white, .3);
+        background: rgba($black, .2);
+        display: block;
+        padding: 1% 0;
+        margin: 0 auto;
+        @include size(3%, 25%);
+        @include border-radius(0 0 .6rem .6rem);
+    }
+
+    &.open {
+        bottom: 0%;
+
+        .toggle {
+            background: rgba($black, .65);
         }
     }
 }
