@@ -3,3 +3,35 @@
     display: block;
     margin: 0 auto;
 }
+
+#install {
+    @extend %app-layer;
+    opacity: 0;
+    @include position(absolute, 2, $t: 0, $l: 0);
+    @include flex-flow(column nowrap);
+    @include justify-content(center);
+
+    h1,
+    p {
+        @include flex(1 auto);
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 1.6em;
+        text-align: center;
+        color: $white;
+        max-height: 20%;
+
+        strong {
+            color: rgba($black, .6);
+        }
+
+        i {
+            font-size: 3.2rem;
+            color: rgba($white, .15);
+            display: block;
+            margin-top: 1.2rem;
+        }
+    }
+}
