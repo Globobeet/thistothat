@@ -37,12 +37,11 @@
 
 .unit-category {
     @extend %app-window;
-    @include position(absolute, 10, $b: 97%, $l: 0);
-    @include transition(bottom .25s ease-in);
+    @include square(100%);
 
     nav {
-        width: 100%;
-        height: 97%;
+        position: relative;
+        @include square(100%);
         background: rgba($black, .65);
         -webkit-overflow-scrolling: touch;
 
@@ -50,34 +49,37 @@
             border-bottom: 1px solid rgba($black, .4);
         }
 
-        a {
+        button {
             color: $white;
             display: block;
+            width: 100%;
             padding: 2rem 3rem;
         }
 
-        .active a {
+        .active button {
             background: rgba($black, .6);
         }
     }
+}
+
+.stage {
+    @extend %app-layer;
+    @include position(absolute, 1, $l: 0, $t: 0);
+    @include translate3d(0, 0, 0);
+    @include transition(all .2s ease-in);
 
     .toggle {
-        font-size: 1rem;
+        font-size: 1.4rem;
         text-align: center;
-        color: rgba($white, .3);
-        background: rgba($black, .2);
+        color: $white;
         display: block;
-        padding: 1% 0;
-        margin: 0 auto;
-        @include size(3%, 25%);
-        @include border-radius(0 0 .6rem .6rem);
+        padding: 1rem;
+        @include position(absolute, 9, $l: 2rem, $t: 1rem);
     }
+}
 
-    &.open {
-        bottom: 0%;
-
-        .toggle {
-            background: rgba($black, .65);
-        }
+.menu-open {
+    .stage {
+        @include translate3d(25rem, 0, 0);
     }
 }

@@ -31,6 +31,14 @@
     @include size($v, $v);
 }
 
+@mixin appearance($v) {
+    -webkit-appearance: $v;
+    -moz-appearance: $v;
+    -ms-appearance: $v;
+    -o-appearance: $v;
+    appearance: $v;
+}
+
 // Responsive
 @mixin respond-to-retina($density: 2){
     @media

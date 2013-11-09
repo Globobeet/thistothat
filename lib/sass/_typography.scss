@@ -2,7 +2,9 @@ html {
     font-size: 62.5%;
 }
 
-body {
+body,
+button,
+input {
     @extend %open-sans;
     font-size: 1.6rem;
     color: $white;
