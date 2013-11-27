@@ -13,3 +13,9 @@ input {
 a {
     text-decoration: none;
 }
+
+%large-number {
+    @extend %ostrich-sans;
+    font-size: 9.6rem;
+    line-height: 1em;
+}
