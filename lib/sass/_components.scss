@@ -145,21 +145,14 @@
         &.evaluate {
             @extend %alt-calc-button;
             background: $dark-red;
-        }
-
-        // Special sizes for 0 and =
-        &.digit:last-of-type {
-            width: 50%;
-        }
-
-        &.evaluate {
             height: 10.6rem;
             float: right;
         }
 
         // Add in missing borders
         &[data-func="clear"],
-        &.digit:last-of-type,
+        &.digit:nth-of-type(18),
+        &.digit:nth-of-type(19),
         &.evaluate {
             border-bottom-width: 1px;
         }
