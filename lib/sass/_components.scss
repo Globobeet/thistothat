@@ -148,15 +148,20 @@
             background: $dark-red;
         }
 
+        // Larger buttons
         &.evaluate {
             height: 10.6rem;
             float: right;
         }
 
+        &.digit:nth-of-type(17) {
+            width: 50%;
+        }
+
         // Add in missing borders
         &[data-func="fraction"],
+        &.digit:nth-of-type(17),
         &.digit:nth-of-type(18),
-        &.digit:nth-of-type(19),
         &.evaluate {
             border-bottom-width: 1px;
         }
