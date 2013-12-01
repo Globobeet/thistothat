@@ -44,6 +44,12 @@ body {
     overflow: hidden;
 }
 
+html,
+body,
+.stage {
+    -webkit-overflow-scrolling: touch
+}
+
 // Button Reset
 button {
     text-align: left;
