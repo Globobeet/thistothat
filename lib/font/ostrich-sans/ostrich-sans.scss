@@ -1,0 +1,11 @@
+$ostrich-sans-path: '../fonts' !default;
+
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('#{$ostrich-sans-path}/ostrich-regular.eot');
+	src: url('#{$ostrich-sans-path}/ostrich-regular.woff') format('woff'),
+         url('#{$ostrich-sans-path}/ostrich-regular.ttf') format('truetype'),
+         url('#{$ostrich-sans-path}/ostrich-regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
