@@ -142,15 +142,19 @@
             @extend %alt-calc-button;
         }
 
-        &.evaluate {
+        &.evaluate,
+        &[data-func="clear"] {
             @extend %alt-calc-button;
             background: $dark-red;
+        }
+
+        &.evaluate {
             height: 10.6rem;
             float: right;
         }
 
         // Add in missing borders
-        &[data-func="clear"],
+        &[data-func="fraction"],
         &.digit:nth-of-type(18),
         &.digit:nth-of-type(19),
         &.evaluate {
