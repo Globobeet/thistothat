@@ -2,18 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/lib\/font\/font-awesome\/_variables.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_variables.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_variables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/lib\/font\/font-awesome\/_core.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -23,6 +11,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/lib\/min\/_core.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/lib\/font\/font-awesome\/_variables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_variables.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/min\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -43,7 +43,7 @@
       "inputAbbreviatedPath" : "\/lib\/js\/vendor\/modernizr\/modernizr-2.6.3.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/modernizr-2.6.3.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/modernizr\/modernizr-2.6.3-ck.js",
       "fileType" : 64
     },
     "\/lib\/js\/vendor\/lodash\/lodash-2.2.1.js" : {
@@ -54,7 +54,7 @@
       "inputAbbreviatedPath" : "\/lib\/js\/vendor\/lodash\/lodash-2.2.1.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/lodash-2.2.1.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/lodash\/lodash-2.2.1-ck.js",
       "fileType" : 64
     },
     "\/lib\/font\/font-awesome\/_bordered-pulled.scss" : {
@@ -70,7 +70,7 @@
       "debugStyle" : 0
     },
     "\/lib\/font\/font-awesome\/font-awesome.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -101,7 +101,7 @@
       "inputAbbreviatedPath" : "\/lib\/js\/models\/Calculator.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/Calculator.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/models\/Calculator-ck.js",
       "fileType" : 64
     },
     "\/lib\/sass\/_variables.scss" : {
@@ -124,7 +124,7 @@
       "inputAbbreviatedPath" : "\/lib\/js\/vendor\/jquery.hammer\/jquery.hammer-1.0.5.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/jquery.hammer-1.0.5.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/jquery.hammer\/jquery.hammer-1.0.5-ck.js",
       "fileType" : 64
     },
     "\/lib\/font\/font-awesome\/_rotated-flipped.scss" : {
@@ -146,8 +146,19 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/js\/libraries.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/libraries.min.js",
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/libraries-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/conversions-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/conversions-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/conversions-ck-ck.js",
       "fileType" : 64
     },
     "\/lib\/img\/logo-full@2x.png" : {
@@ -163,13 +174,13 @@
     },
     "\/lib\/min\/libraries.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/min\/libraries.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/libraries.min.min.js",
+      "outputAbbreviatedPath" : "\/lib\/min\/libraries.min-ck.js",
       "fileType" : 64
     },
     "\/lib\/img\/logo-full.png" : {
@@ -181,6 +192,29 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/lib\/img\/logo-full.png",
       "initialSize" : 8857,
+      "fileType" : 8192
+    },
+    "\/lib\/font\/font-awesome\/_stacked.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_stacked.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/min\/_stacked.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/lib\/img\/bg.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/bg.png",
+      "initialSize" : 3017707,
       "fileType" : 8192
     },
     "\/lib\/sass\/_layout.scss" : {
@@ -195,28 +229,8 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
-    },
-    "\/lib\/img\/bg.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/bg.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/bg.png",
-      "initialSize" : 3017707,
-      "fileType" : 8192
-    },
     "\/lib\/font\/open-sans\/open-sans.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -227,15 +241,46 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/font\/font-awesome\/_stacked.scss" : {
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
+    "\/lib\/js\/models\/Converter.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/models\/Converter.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/models\/Converter-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/conversions.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/conversions.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/conversions-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/sass\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_stacked.scss",
+      "inputAbbreviatedPath" : "\/lib\/sass\/_typography.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_stacked.css",
+      "outputAbbreviatedPath" : "\/lib\/min\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -258,54 +303,8 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/js\/models\/CategoryMenu.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/CategoryMenu.min.js",
-      "fileType" : 64
-    },
-    "\/lib\/sass\/_typography.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/sass\/_typography.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_typography.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/lib\/font\/font-awesome\/_fixed-width.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_fixed-width.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_fixed-width.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/lib\/js\/models\/ConversionWindow.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/models\/ConversionWindow.js",
-      "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/ConversionWindow.min.js",
-      "fileType" : 64
-    },
-    "\/lib\/min\/application.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/min\/application.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/application.min.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/models\/CategoryMenu-ck.js",
       "fileType" : 64
     },
     "\/lib\/font\/font-awesome\/_spinning.scss" : {
@@ -319,6 +318,40 @@
       "outputAbbreviatedPath" : "\/lib\/min\/_spinning.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/lib\/js\/models\/ConversionWindow.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/models\/ConversionWindow.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/models\/ConversionWindow-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/font\/font-awesome\/_fixed-width.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_fixed-width.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/min\/_fixed-width.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/lib\/min\/application.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/min\/application.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/min\/application.min-ck.js",
+      "fileType" : 64
     },
     "\/lib\/font\/ostrich-sans\/ostrich-sans.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -373,7 +406,7 @@
       "inputAbbreviatedPath" : "\/lib\/js\/vendor\/jquery\/jquery-2.0.3.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/jquery-2.0.3.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/jquery\/jquery-2.0.3-ck.js",
       "fileType" : 64
     },
     "\/lib\/js\/models\/App.js" : {
@@ -384,18 +417,18 @@
       "inputAbbreviatedPath" : "\/lib\/js\/models\/App.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/App.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/models\/App-ck.js",
       "fileType" : 64
     },
-    "\/lib\/sass\/_utilities.scss" : {
+    "\/lib\/sass\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/sass\/_utilities.scss",
+      "inputAbbreviatedPath" : "\/lib\/sass\/_mixins.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_utilities.css",
+      "outputAbbreviatedPath" : "\/lib\/min\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -411,15 +444,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/sass\/_mixins.scss" : {
+    "\/lib\/sass\/_utilities.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/sass\/_mixins.scss",
+      "inputAbbreviatedPath" : "\/lib\/sass\/_utilities.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_mixins.css",
+      "outputAbbreviatedPath" : "\/lib\/min\/_utilities.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -431,8 +464,20 @@
       "inputAbbreviatedPath" : "\/lib\/js\/application.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/application.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/application-ck.js",
       "fileType" : 64
+    },
+    "\/lib\/font\/font-awesome\/_list.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_list.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/min\/_list.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/lib\/font\/font-awesome\/_icons.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -446,17 +491,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/font\/font-awesome\/_list.scss" : {
+    "\/lib\/js\/application-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_list.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_list.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/lib\/js\/application-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/application-ck-ck.js",
+      "fileType" : 64
     }
   },
   "manualImportLinks" : [
@@ -470,7 +514,7 @@
     "draggedImportConcatenationStyle" : 1,
     "jadeAutoOutputPathStyle" : 0,
     "hamlEscapeHTMLCharacters" : 0,
-    "javascriptAutoOutputPathStyle" : 1,
+    "javascriptAutoOutputPathStyle" : 0,
     "hamlOutputFormat" : 2,
     "stylusAutoOutputPathReplace1" : "stylus",
     "lessStrictImports" : 0,
@@ -482,7 +526,7 @@
     "lessStrictUnits" : 0,
     "lessStrictMath" : 0,
     "coffeeMinifyOutput" : 1,
-    "javascriptOutputSuffix" : ".min",
+    "javascriptOutputSuffix" : "-ck",
     "jadeOutputStyle" : 0,
     "coffeeAutoOutputPathStyle" : 0,
     "autoSyncProjectSettingsFile" : 1,
@@ -632,7 +676,7 @@
     "kitAutoOutputPathReplace2" : "",
     "lessRelativeURLS" : 0,
     "lessDebugStyle" : 0,
-    "javascriptAutoOutputPathRelativePath" : "lib\/min",
+    "javascriptAutoOutputPathRelativePath" : "",
     "slimAutoOutputPathStyle" : 0
   },
   "projectAttributes" : {
