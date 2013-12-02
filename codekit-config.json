@@ -93,17 +93,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/js\/models\/Calculator.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/models\/Calculator.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/Calculator.min.js",
-      "fileType" : 64
-    },
     "\/lib\/sass\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -125,6 +114,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/min\/jquery.hammer-1.0.5.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/models\/Calculator.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/models\/Calculator.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/min\/Calculator.min.js",
       "fileType" : 64
     },
     "\/lib\/font\/font-awesome\/_rotated-flipped.scss" : {
@@ -183,6 +183,18 @@
       "initialSize" : 8857,
       "fileType" : 8192
     },
+    "\/lib\/font\/font-awesome\/_stacked.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_stacked.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/min\/_stacked.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/lib\/sass\/_layout.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -204,17 +216,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 32768
     },
-    "\/lib\/img\/bg.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/bg.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/bg.png",
-      "initialSize" : 3017707,
-      "fileType" : 8192
-    },
     "\/lib\/font\/open-sans\/open-sans.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -227,27 +228,26 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/font\/font-awesome\/_stacked.scss" : {
+    "\/lib\/img\/bg.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_stacked.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_stacked.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/lib\/img\/bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/bg.png",
+      "initialSize" : 3017707,
+      "fileType" : 8192
     },
-    "\/lib\/font\/font-awesome\/_larger.scss" : {
+    "\/lib\/sass\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_larger.scss",
+      "inputAbbreviatedPath" : "\/lib\/sass\/_typography.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_larger.css",
+      "outputAbbreviatedPath" : "\/lib\/min\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -262,15 +262,27 @@
       "outputAbbreviatedPath" : "\/lib\/min\/CategoryMenu.min.js",
       "fileType" : 64
     },
-    "\/lib\/sass\/_typography.scss" : {
+    "\/lib\/font\/font-awesome\/_larger.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/sass\/_typography.scss",
+      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_larger.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_typography.css",
+      "outputAbbreviatedPath" : "\/lib\/min\/_larger.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/lib\/font\/font-awesome\/_spinning.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_spinning.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/min\/_spinning.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -286,17 +298,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/js\/models\/ConversionWindow.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/models\/ConversionWindow.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/min\/ConversionWindow.min.js",
-      "fileType" : 64
-    },
     "\/lib\/min\/application.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -308,17 +309,16 @@
       "outputAbbreviatedPath" : "\/lib\/min\/application.min.min.js",
       "fileType" : 64
     },
-    "\/lib\/font\/font-awesome\/_spinning.scss" : {
+    "\/lib\/js\/models\/ConversionWindow.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_spinning.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_spinning.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/lib\/js\/models\/ConversionWindow.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/min\/ConversionWindow.min.js",
+      "fileType" : 64
     },
     "\/lib\/font\/ostrich-sans\/ostrich-sans.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -399,18 +399,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/sass\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/sass\/styles.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/lib\/sass\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -420,6 +408,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/lib\/min\/_mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/lib\/sass\/styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/sass\/styles.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/min\/styles.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -434,18 +434,6 @@
       "outputAbbreviatedPath" : "\/lib\/min\/application.min.js",
       "fileType" : 64
     },
-    "\/lib\/font\/font-awesome\/_icons.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_icons.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/min\/_icons.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/lib\/font\/font-awesome\/_list.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -455,6 +443,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/lib\/min\/_list.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/lib\/font\/font-awesome\/_icons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/font\/font-awesome\/_icons.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/min\/_icons.css",
       "fileType" : 4,
       "debugStyle" : 0
     }
