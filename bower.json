@@ -1,0 +1,11 @@
+{
+  "name": "this-to-that",
+  "version": "0.1.0",
+  "description": "Super simple unit conversions",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "hammerjs": "~1.0.5",
+    "lodash": "~2.4.0",
+    "modernizr": "~2.7.0"
+  }
+}

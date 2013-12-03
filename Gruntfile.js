@@ -1,7 +1,6 @@
 module.exports = function(grunt) {
     var jsPath = 'lib/js',
         minPath = 'lib/min',
-        vendorPath = jsPath + '/vendor',
         modelPath = jsPath + '/models';
 
     // Project configuration.
@@ -16,16 +15,26 @@ module.exports = function(grunt) {
             }
         },
 
+        bower_concat: {
+            all: {
+                dest: minPath + '/libraries.min.js',
+                dependencies: {
+                    'jquery': 'modernizr',
+                    'lodash': 'jquery',
+                    'hammerjs': 'jquery'
+                },
+                bowerOptions: {
+                    relative: false
+                }
+            }
+        },
+
         jshint: {
             source: [modelPath + '/*.js', jsPath + '/application.js'],
             afterconcat: [minPath + '/application.min.js']
         },
 
         concat: {
-            libraries: {
-                src: [vendorPath + '/modernizr/modernizr-2.6.3.js', vendorPath + '/lodash/lodash-2.2.1.js', vendorPath + '/jquery/jquery-2.0.3.js', vendorPath + '/jquery.hammer/jquery.hammer-1.0.5.js'],
-                dest: minPath + '/libraries.min.js'
-            },
             application: {
                 src: [modelPath + '/Converter.js', modelPath + '/CategoryMenu.js', modelPath + '/ConversionWindow.js', modelPath + '/Calculator.js', modelPath + '/App.js', jsPath + '/application.js'],
                 dest: minPath + '/application.min.js'
@@ -46,13 +55,17 @@ module.exports = function(grunt) {
         },
 
         watch: {
+            libraries: {
+                files: ['bower_components/**/*'],
+                tasks: ['compile-libs']
+            },
             scripts: {
-                files: [modelPath + '/*.js', vendorPath + '/*.js', jsPath + '/application.js'],
+                files: [modelPath + '/*.js', jsPath + '/application.js'],
                 tasks: ['compile-js']
             },
             css: {
                 files: ['lib/sass/*.js'],
-                tasks: ['compile-css'],
+                tasks: ['compile-css']
             }
         }
     });
@@ -61,11 +74,13 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-bower-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('compile-css', ['compass']);
+    grunt.registerTask('compile-libs', ['bower_concat']);
     grunt.registerTask('compile-js', ['jshint:source', 'concat', 'jshint:afterconcat']);
-    grunt.registerTask('compile', ['compile-css', 'compile-js']);
+    grunt.registerTask('compile', ['compile-css', 'compile-libs', 'compile-js']);
     grunt.registerTask('compile-prod', ['compile', 'uglify']);
-    grunt.registerTask('default', ['watch']);
+    grunt.registerTask('default', ['compile', 'watch']);
 };
