@@ -99,7 +99,6 @@
 
     .value {
         @extend %large-number;
-        vertical-align: middle;
     }
 
     .unit {
@@ -113,6 +112,8 @@
         position: relative;
         top: -.7rem;
     }
+
+
 }
 
 .convert-to {
