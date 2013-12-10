@@ -99,6 +99,10 @@
 
     .value {
         @extend %large-number;
+
+        &.small {
+            font-size: 4.8rem;
+        }
     }
 
     .unit {
