@@ -30,13 +30,26 @@ module.exports = function(grunt) {
         },
 
         jshint: {
-            source: [modelPath + '/*.js', jsPath + '/application.js'],
-            afterconcat: [minPath + '/application.min.js']
+            source: [
+                modelPath + '/*.js',
+                jsPath + '/application.js'
+            ],
+            afterconcat: [
+                minPath + '/application.min.js'
+            ]
         },
 
         concat: {
             application: {
-                src: [modelPath + '/Converter.js', modelPath + '/CategoryMenu.js', modelPath + '/ConversionWindow.js', modelPath + '/Calculator.js', modelPath + '/App.js', jsPath + '/application.js'],
+                src: [
+                    jsPath + '/Helpers.js',
+                    modelPath + '/Converter.js',
+                    modelPath + '/CategoryMenu.js',
+                    modelPath + '/ConversionWindow.js',
+                    modelPath + '/Calculator.js',
+                    modelPath + '/App.js',
+                    jsPath + '/application.js'
+                ],
                 dest: minPath + '/application.min.js'
             }
         },
