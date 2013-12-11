@@ -153,6 +153,10 @@
             background: $dark-red;
         }
 
+        &.operator.highlighted {
+            background: $dark-red;
+        }
+
         &.evaluate {
             height: 10.6rem;
             float: right;
