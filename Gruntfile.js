@@ -47,6 +47,7 @@ module.exports = function(grunt) {
                     modelPath + '/CategoryMenu.js',
                     modelPath + '/ConversionWindow.js',
                     modelPath + '/Calculator.js',
+                    modelPath + '/UnitPicker.js',
                     modelPath + '/App.js',
                     jsPath + '/application.js'
                 ],

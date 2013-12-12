@@ -43,6 +43,8 @@
         position: relative;
         @include square(100%);
         background: rgba($black, .65);
+        overflow-x: hidden;
+        overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
 
         li {
@@ -190,5 +192,35 @@
                 top: -.7rem;
             }
         }
+    }
+}
+
+.unit-picker {
+    @extend %app-layer;
+    @include position(absolute, 1000, $t: 0, $l: 0);
+    @include flex-flow(column nowrap);
+    @include justify-content(top);
+
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+
+    li {
+        border-bottom: 1px solid rgba($black, .2);
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    button {
+        color: $white;
+        display: block;
+        width: 100%;
+        padding: 2rem 3rem;
+    }
+
+    .active button {
+        background: rgba($black, .6);
     }
 }
