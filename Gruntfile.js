@@ -74,7 +74,7 @@ module.exports = function(grunt) {
                 tasks: ['compile-libs']
             },
             scripts: {
-                files: [modelPath + '/*.js', jsPath + '/application.js'],
+                files: [modelPath + '/*.js', jsPath + '/*.js'],
                 tasks: ['compile-js']
             },
             css: {
