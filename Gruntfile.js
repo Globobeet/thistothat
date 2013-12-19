@@ -104,6 +104,12 @@ module.exports = function(grunt) {
                 files: ['lib/sass/*.scss'],
                 tasks: ['compile-css']
             }
+        },
+
+        githooks: {
+            all: {
+                'pre-commit': 'compile-prod'
+            }
         }
     });
 
@@ -114,6 +120,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-bower-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-jasmine');
+    grunt.loadNpmTasks('grunt-githooks');
 
     grunt.registerTask('compile-css', ['compass']);
     grunt.registerTask('compile-libs', ['bower_concat']);
