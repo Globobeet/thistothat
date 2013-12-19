@@ -23,6 +23,7 @@ module.exports = function(grunt) {
                     'lodash': 'jquery',
                     'hammerjs': 'jquery'
                 },
+                exclude: 'jasmine-jquery',
                 bowerOptions: {
                     relative: false
                 }
@@ -74,6 +75,7 @@ module.exports = function(grunt) {
                 specs : 'tests/*_test.js',
                 vendor: [
                     minPath + '/libraries.min.js',
+                    'bower_components/jasmine-jquery/lib/jasmine-jquery.js',
                     'lib/conversions.js'
                 ],
                 helpers : [
@@ -92,7 +94,10 @@ module.exports = function(grunt) {
                 tasks: ['test-js', 'compile-js']
             },
             tests: {
-                files: 'tests/**/*_test.js',
+                files: [
+                    'tests/**/*_test.js',
+                    'tests/fixtures/*.html'
+                ],
                 tasks: ['test-js']
             },
             css: {
