@@ -108,7 +108,7 @@ module.exports = function(grunt) {
 
         githooks: {
             all: {
-                'pre-commit': 'compile-prod'
+                'pre-commit': 'test-js'
             }
         }
     });
