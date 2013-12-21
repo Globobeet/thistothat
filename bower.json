@@ -6,6 +6,7 @@
     "jquery": "~2.0.3",
     "hammerjs": "~1.0.5",
     "lodash": "~2.4.0",
-    "modernizr": "~2.7.0"
+    "modernizr": "~2.7.0",
+    "jasmine-jquery": "~1.5.93"
   }
 }
